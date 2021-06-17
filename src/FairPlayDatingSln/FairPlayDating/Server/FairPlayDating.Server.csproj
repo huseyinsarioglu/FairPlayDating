@@ -8,8 +8,8 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="5.0.6" />
     <PackageReference Include="Microsoft.Identity.Web" Version="1.13.1" />
-    <PackageReference Include="PTI.Microservices.Library" Version="1.0.3.11-preview" />
-    <PackageReference Include="PTI.Microservices.Library.Models" Version="1.0.3.11-preview" />
+    <PackageReference Include="PTI.Microservices.Library" Version="1.0.3.12-preview" />
+    <PackageReference Include="PTI.Microservices.Library.Models" Version="1.0.3.12-preview" />
   </ItemGroup>
 
   <ItemGroup>

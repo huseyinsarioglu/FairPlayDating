@@ -1,4 +1,5 @@
 ﻿using FairPlayDating.Client.ClientServices;
+using FairPlayDating.Common;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Components;
 using PTI.Microservices.Library.Models.FacebookGraph.GetMyPhotos;
@@ -7,10 +8,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FairPlayDating.Client.Pages
+namespace FairPlayDating.Client.Pages.Users
 {
     [Authorize]
-    [Route("/MyPhotos")]
+    [Route(Constants.ClientRoutes.MyPhotos)]
     public partial class MyPhotos
     {
         [Inject]

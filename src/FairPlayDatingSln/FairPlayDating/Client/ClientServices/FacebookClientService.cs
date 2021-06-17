@@ -1,4 +1,6 @@
-﻿using PTI.Microservices.Library.Models.FacebookGraph.GetMyPhotos;
+﻿using FairPlayDating.Common;
+using PTI.Microservices.Library.Models.FacebookGraph.GetMyAlbums;
+using PTI.Microservices.Library.Models.FacebookGraph.GetMyPhotos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,9 +20,17 @@ namespace FairPlayDating.Client.ClientServices
 
         public async Task<GetMyPhotosResponse> GetMyPhotos(string pageToken=null)
         {
-            string requestUrl = $"api/Facebook/GetMyPhotos?pageToken={pageToken}";
+            string requestUrl = $"{Constants.ApiRoutes.GetMyPhotos}?pageToken={pageToken}";
             var authorizedHttpClinet = this.HttpClientService.CreateAuthorizedClient();
             var result = await authorizedHttpClinet.GetFromJsonAsync<GetMyPhotosResponse>(requestUrl);
+            return result;
+        }
+
+        public async Task<GetMyAlbumsResponse> GetMyAlbums(string pageToken = null)
+        {
+            string requestUrl = $"{Constants.ApiRoutes.GetMyAlbums}?pageToken={pageToken}";
+            var authorizedHttpClinet = this.HttpClientService.CreateAuthorizedClient();
+            var result = await authorizedHttpClinet.GetFromJsonAsync<GetMyAlbumsResponse>(requestUrl);
             return result;
         }
     }

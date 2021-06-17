@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using PTI.Microservices.Library.Models.FacebookGraph.GetMyAlbums;
 using PTI.Microservices.Library.Models.FacebookGraph.GetMyPhotos;
 using PTI.Microservices.Library.Services;
 using System;
@@ -26,6 +27,13 @@ namespace FairPlayDating.Server.Controllers
         public async Task<GetMyPhotosResponse> GetMyPhotos(string pageToken=null, CancellationToken cancellationToken=default)
         {
             var result = await this.FacebookGraphService.GetMyPhotosAsync(pageToken, cancellationToken);
+            return result;
+        }
+
+        [HttpGet("[action]")]
+        public async Task<GetMyAlbumsResponse> GetMyAlbums(string pageToken = null, CancellationToken cancellationToken=default)
+        {
+            var result = await this.FacebookGraphService.GetMyAlbumsAsync(pageToken, cancellationToken);
             return result;
         }
     }
