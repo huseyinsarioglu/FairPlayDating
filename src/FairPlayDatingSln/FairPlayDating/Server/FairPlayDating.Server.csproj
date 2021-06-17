@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>2fde28e5-2bbd-4a25-a0a9-64d160213310</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="5.0.6" />
+    <PackageReference Include="Microsoft.Identity.Web" Version="1.13.1" />
+    <PackageReference Include="PTI.Microservices.Library" Version="1.0.3.11-preview" />
+    <PackageReference Include="PTI.Microservices.Library.Models" Version="1.0.3.11-preview" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Client\FairPlayDating.Client.csproj" />
+    <ProjectReference Include="..\Shared\FairPlayDating.Shared.csproj" />
+  </ItemGroup>
+
+
+</Project>

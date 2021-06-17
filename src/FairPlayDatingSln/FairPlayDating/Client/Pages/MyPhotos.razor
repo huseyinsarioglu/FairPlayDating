@@ -1,0 +1,22 @@
+﻿<h3>MyPhotos</h3>
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <button type="button" @onclick="@( async () => await OnNextPageClick())">Next Page</button>
+        </div>
+    </div>
+    @if (PagePhotos != null)
+    {
+        @foreach (var singlePhoto in PagePhotos.data)
+        {
+            <div class="row">
+                <div class="col">
+                    <img class="img-thumbnail" src="@singlePhoto.webp_images.First().source" />
+                </div>
+            </div>
+        }
+    }
+</div>
