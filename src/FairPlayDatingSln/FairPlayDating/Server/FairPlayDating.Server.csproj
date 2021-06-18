@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
@@ -7,14 +7,17 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="5.0.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.7" />
     <PackageReference Include="Microsoft.Identity.Web" Version="1.13.1" />
     <PackageReference Include="PTI.Microservices.Library" Version="1.0.3.12-preview" />
     <PackageReference Include="PTI.Microservices.Library.Models" Version="1.0.3.12-preview" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\FairPlayDating.DataAccess\FairPlayDating.DataAccess.csproj" />
+    <ProjectReference Include="..\..\FairPlayDating.Models\FairPlayDating.Models.csproj" />
     <ProjectReference Include="..\Client\FairPlayDating.Client.csproj" />
-    <ProjectReference Include="..\Shared\FairPlayDating.Shared.csproj" />
   </ItemGroup>
 
 

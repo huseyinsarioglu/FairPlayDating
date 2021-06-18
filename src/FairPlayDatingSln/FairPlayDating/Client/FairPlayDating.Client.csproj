@@ -15,7 +15,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\FairPlayDating.Common\FairPlayDating.Common.csproj" />
-    <ProjectReference Include="..\Shared\FairPlayDating.Shared.csproj" />
   </ItemGroup>
 
 </Project>

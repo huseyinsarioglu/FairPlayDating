@@ -1,0 +1,64 @@
+﻿{
+   "CodeGenerationMode": 0,
+   "ContextClassName": "FairPlayDatingDbContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": "Data",
+   "OutputPath": "Models",
+   "ProjectRootNamespace": "FairPlayDating.DataAccess",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[ApplicationRole]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ApplicationUser]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ApplicationUserRole]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ErrorLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserFeedback]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserInvitation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserMessage]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserProfile]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "C:\\Projects\\Github\\FairPlayDatng\\src\\FairPlayDatingSln\\FairPlayDating.Database\\FairPlayDating.Database.sqlproj",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": false,
+   "UseHandleBars": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseNoConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false
+}

@@ -1,5 +1,6 @@
 ﻿using FairPlayDating.Client.ClientServices;
 using FairPlayDating.Common;
+using FairPlayDating.Common.Global;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Components;
 using PTI.Microservices.Library.Models.FacebookGraph.GetMyPhotos;
