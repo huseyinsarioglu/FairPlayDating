@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="6b497086-b9d2-4a3c-9335-a5026594febc" ChangeDateTime="06/18/2021 12:57:38">
+    <Property Name="ElementName" Value="[dbo].[EyeColor].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[EyeColor]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="EyeColorId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1a7bb2a4-2efe-4277-821d-e5abd790fcbc" ChangeDateTime="06/18/2021 12:57:51">
+    <Property Name="ElementName" Value="[dbo].[EyeColor].[EyeColorId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[EyeColor]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="EyesColorId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2921a797-0419-41c4-8987-892c20e6c355" ChangeDateTime="06/18/2021 12:59:11">
+    <Property Name="ElementName" Value="[dbo].[HairColor].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[HairColor]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="HairColorId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="45ce8d03-9708-4dbd-a07a-d398fbf7de11" ChangeDateTime="06/18/2021 13:01:14">
+    <Property Name="ElementName" Value="[dbo].[UserProfile].[NaturalHairColor]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UserProfile]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="NaturalHairColorId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ff70b74c-9fc3-4cd2-ad8f-719d4d81a57c" ChangeDateTime="06/18/2021 13:02:34">
+    <Property Name="ElementName" Value="[dbo].[UserProfile].[NaturalHairColorId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UserProfile]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="HairColorId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1ce89b3b-4106-41af-91ee-cebdd2dd7f24" ChangeDateTime="06/18/2021 13:11:19">
+    <Property Name="ElementName" Value="[dbo].[Activity].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Activity]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ActivityId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="28d51eec-227c-4c25-be5c-08673ef2306f" ChangeDateTime="06/18/2021 13:12:16">
+    <Property Name="ElementName" Value="[dbo].[Frequency].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Frequency]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FrequencyId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f918d260-70e4-41e2-a945-5ab684359933" ChangeDateTime="06/18/2021 13:13:20">
+    <Property Name="ElementName" Value="[dbo].[UserActivity].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UserActivity]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserActivityId" />
+  </Operation>
+</Operations>

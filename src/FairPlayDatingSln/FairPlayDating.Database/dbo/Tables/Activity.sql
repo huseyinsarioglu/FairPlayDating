@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[Activity]
+(
+	[ActivityId] SMALLINT NOT NULL CONSTRAINT PK_Activity PRIMARY KEY IDENTITY, 
+    [Name] NVARCHAR(50) NOT NULL
+)

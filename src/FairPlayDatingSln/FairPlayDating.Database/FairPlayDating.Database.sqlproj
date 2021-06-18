@@ -70,8 +70,16 @@
     <Build Include="dbo\Tables\UserInvitation.sql" />
     <Build Include="dbo\Tables\UserMessage.sql" />
     <Build Include="dbo\Tables\UserProfile.sql" />
+    <Build Include="dbo\Tables\EyesColor.sql" />
+    <Build Include="dbo\Tables\HairColor.sql" />
+    <Build Include="dbo\Tables\Activity.sql" />
+    <Build Include="dbo\Tables\Frequency.sql" />
+    <Build Include="dbo\Tables\UserActivity.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\PostDeployment\Script.PostDeployment.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="FairPlayDating.Database.refactorlog" />
   </ItemGroup>
 </Project>
