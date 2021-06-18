@@ -10,6 +10,12 @@ namespace FairPlayDating.Common.Global
             public const string ReceiveMessage = "ReceiveMessage";
             public const string SendMessage = "SendMessage";
         }
+
+        public class ConfigurationKeysNames
+        {
+            public const string AzureAppConfigConnectionString = "AzureAppConfigConnectionString";
+            public const string DefaultConnectionString = "Default";
+        }
         public class Roles
         {
             public const string Admin = "Admin";

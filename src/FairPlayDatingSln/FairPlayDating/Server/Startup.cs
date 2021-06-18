@@ -140,6 +140,10 @@ namespace FairPlayDating.Server
                 return facebookGraphService;
             });
             services.AddControllersWithViews();
+            services.AddAutoMapper(configAction =>
+            {
+                configAction.AddMaps(new[] { typeof(Startup).Assembly });
+            });
             services.AddRazorPages();
 
             bool enableSwagger = Convert.ToBoolean(Configuration["EnableSwaggerUI"]);

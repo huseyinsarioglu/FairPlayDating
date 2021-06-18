@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FairPlayDating.Common", "Fa
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "FairPlayDating.Database", "FairPlayDating.Database\FairPlayDating.Database.sqlproj", "{1EA4728E-BF33-40A5-B1B0-DC23CD318200}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FairPlayDating.DataAccess", "FairPlayDating.DataAccess\FairPlayDating.DataAccess.csproj", "{68CDD9D8-C691-47AE-8401-10BCC4D3489D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FairPlayDating.DataAccess", "FairPlayDating.DataAccess\FairPlayDating.DataAccess.csproj", "{68CDD9D8-C691-47AE-8401-10BCC4D3489D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FairPlayDating.Models", "FairPlayDating.Models\FairPlayDating.Models.csproj", "{240EA8B3-E0CA-462D-8D89-EA90A976A3FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FairPlayDating.Models", "FairPlayDating.Models\FairPlayDating.Models.csproj", "{240EA8B3-E0CA-462D-8D89-EA90A976A3FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FairPlayDating.Server.Tests", "FairPlayDating\FairPlayDating.Server.Tests\FairPlayDating.Server.Tests.csproj", "{B1C775B3-EB70-4483-A5CE-F05852F07B32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{240EA8B3-E0CA-462D-8D89-EA90A976A3FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{240EA8B3-E0CA-462D-8D89-EA90A976A3FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{240EA8B3-E0CA-462D-8D89-EA90A976A3FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1C775B3-EB70-4483-A5CE-F05852F07B32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1C775B3-EB70-4483-A5CE-F05852F07B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1C775B3-EB70-4483-A5CE-F05852F07B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1C775B3-EB70-4483-A5CE-F05852F07B32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
